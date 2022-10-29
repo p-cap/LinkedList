@@ -24,3 +24,13 @@ class LinkedList:
             result.append(current)
             current = current.next
         return result
+    
+    def print_linkedList(self) -> None:
+        for node in self.linkedlist_array:
+            print(node.value)
+            if not node.next:
+                print(node.next)
+            else:
+                print(node.next.value)
+            print("############")
+
