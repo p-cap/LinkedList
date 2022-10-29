@@ -17,7 +17,7 @@ class LinkedList:
                 current.next = ListNode(nums[i], nums[i + 1])
             current = current.next
 
-    def print_list(self) -> List:
+    def linkedList_array(self) -> List:
         result = []
         current = self.head
         while current:
